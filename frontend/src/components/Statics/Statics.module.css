@@ -1,0 +1,90 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    background-color: var(--dark-purple);
+  }
+  
+  .statsContainer {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.1); /* Low opacity white background for stats */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  
+  .statistic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .icon {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .revenue {
+    background-color: var(--light-purple);
+  }
+  
+  .products {
+    background-color: var(--bright-blue);
+  }
+  
+  .customers {
+    background-color: var(--teal-accent);
+  }
+  
+  .data {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--white-text);
+  }
+  
+  .label {
+    font-size: 16px;
+    color: var(--white-text);
+  }
+  
+  .learnMoreContainer {
+    width: 90%;
+    background: linear-gradient(to right, var(--gradient-start), var(--gradient-end));
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .title {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--white-text);
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    font-size: 16px;
+    color: var(--white-text);
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    background-color: var(--teal-accent);
+    color: var(--white-text);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }

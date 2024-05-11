@@ -1,0 +1,23 @@
+.button {
+    background-color: var(--light-purple)!important;
+    margin: 15px 0!important;
+    color: var(--white-text)!important;
+    &:hover {
+      background-color: var(--bright-blue)!important;
+  }
+}
+  
+  .dataGrid {
+    background-color: white !important;
+    color: var(--light-purple)!important;
+    border-color: white!important;
+    
+    & .MuiDataGrid-columnHeaders {
+      background-color: var(--card-bg-purple)!important;
+      color: var(--white-text)!important;
+    }
+    
+    & .MuiDataGrid-cell {
+      border-bottom: 1px solid white!important;
+    }
+  }

@@ -1,0 +1,118 @@
+.heroSection {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--dark-purple);
+
+}
+.heroContainer{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    width: 100%;
+    margin-top: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heroSection h1 {
+
+    color: white;
+    font-size: 3.5vw;
+    z-index: 3;
+    width: 60%;
+    font-weight: 700;
+    margin: 0;
+
+}
+
+.heroSection p{
+
+    z-index: 2;
+    color: white;
+    left: 30%;
+    top: 30%;
+    margin:30px 0;
+    font-size: 1vw;
+}
+
+.buttonsWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 3;
+    width: 300px;
+}
+.primaryBtn, .secondaryBtn{
+    color: white;
+    padding: 10px 16px;
+    font-size: 11px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s all ease-in;
+}
+.secondaryBtn{
+    
+    border: 1px solid white;
+}
+
+.primaryBtn{
+    background-color: var( --button-purple);
+    border: 1px solid var( --button-purple);
+}
+
+.secondaryBtn:hover{
+    color: var(--button-purple);
+    background-color: white;
+}
+.primaryBtn:hover{
+    opacity: 0.7;
+}
+
+
+
+
+
+.heroImg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    object-fit: cover;
+    filter: brightness(70%);
+}
+
+
+@media screen and (max-width: 1100px) {
+
+    .heroSection h1 {
+
+        font-size: 5.5vw;
+        width: 52%;
+
+
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .heroSection h1 {
+
+        font-size: 10vw;
+        width: 90%;
+        left:5%;
+
+
+    }
+}

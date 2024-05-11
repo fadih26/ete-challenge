@@ -1,0 +1,32 @@
+:root {
+  /* Primary Backgrounds */
+
+  --dark-purple: #1E1E2F;  
+  --card-bg-purple: #2D2D46; 
+  --light-purple: #6A60A9;  
+  --bright-blue: #4A90E2;   
+  --teal-accent: #1AB7EA;  
+  --white-text: #FFFFFF;  
+  --gradient-start: #6A60A9; 
+  --gradient-end: #2D2D46;  
+  /* UI Elements */
+  --button-purple: #6A60A9;
+  --icon-blue: #8894C0; 
+  --teal-accent: #23B7E5;
+  --light-teal: #62D6FB; 
+  --dark-teal: #1A616F;
+
+  /* Text and Buttons */
+  --white-text: #FFFFFF; 
+  --highlight-text: #B0B0FF; 
+  --subtle-text: #CCCCCC;
+
+
+}
+a,h1,h2,h3,h4,span,p,li{
+  font-family: 'Montserrat';
+}
+
+body{
+  background-color: var(--dark-purple);
+}
